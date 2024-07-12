@@ -76,3 +76,15 @@ For a detailed walkthrough and demo of the application, watch the [YouTube video
 os.environ['PINECONE_API_KEY'] = "your_pinecone_api_key"
 os.environ['OPENAI_API_KEY'] = "your_openai_api_key"
 os.environ['ASSEMBLYAI_API_KEY'] = "your_assemblyai_api_key"
+'''
+
+##Transcription of MP3 Files
+```python
+def transcribe_audio(file_path):
+    transcriber = aai.Transcriber()
+    transcript = transcriber.transcribe(file_path)
+    if transcript.error:
+        st.error(f"Transcription error: {transcript.error}")
+        return ""
+    return transcript.text
+
