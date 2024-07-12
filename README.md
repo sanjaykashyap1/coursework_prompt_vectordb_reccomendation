@@ -1,5 +1,5 @@
 
-# MP3 Transcription and Chatbot Application
+# MP3 Transcription and Recommendation Chatbot Application
 
 Welcome to the MP3 Transcription and Chatbot Application! This project combines advanced transcription services, vector databases, and Large Language Models (LLMs) to create a responsive and intelligent chatbot. The application allows users to upload MP3 files, transcribe the audio, and interact with the transcript through a conversational interface.
 
